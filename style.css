@@ -281,6 +281,11 @@ cursor:pointer;
     background-color: aqua;
     color: blue;
 }
+.project-card h4 {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 8px;
+}
 
 /* HIDDEN DETAILS */
 
@@ -347,9 +352,7 @@ h3{
     text-align: center;
 }
 
-#projects h4{
-    text-align: center;
-}
+
 
 /* 🔹 Universal Mobile Fix for Portfolio */
 @media (max-width:768px){
