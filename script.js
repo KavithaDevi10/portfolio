@@ -43,3 +43,25 @@ const toggle = document.getElementById("darkModeToggle");
 toggle.onclick = () =>{
 document.body.classList.toggle("dark");
 };
+
+
+
+
+
+document.querySelectorAll(".view-btn").forEach(button => {
+
+button.addEventListener("click", function(){
+
+let details = this.nextElementSibling;
+
+if(details.style.display === "block"){
+details.style.display = "none";
+this.textContent = "View Details";
+}else{
+details.style.display = "block";
+this.textContent = "Hide Details";
+}
+
+});
+
+});
